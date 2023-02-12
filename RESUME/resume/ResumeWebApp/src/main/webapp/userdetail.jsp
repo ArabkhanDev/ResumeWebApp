@@ -21,14 +21,14 @@
 
 <div>
     <form action="userdetail" method="POST">
-        <%--@declare id="name"--%><%--@declare id="surname"--%>
         <input type="hidden" name="id" value="<%=u.getId()%>"/>
         <label for="name">name:</label>
         <input type="text" name="name" value="<%=u.getName()%>"/>
         <br>
         <label for="surname"> surname: </label>
         <input type="text" name="surname" value="<%=u.getSurname()%>">
-        <input type="submit" name="action" value="update">
+
+        <input type="submit" name="action" value="update"/>
     </form>
 </div>
 </body>
