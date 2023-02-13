@@ -29,6 +29,7 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
         String surname = rs.getString("surname");
         String phone = rs.getString("phone");
         String email = rs.getString("email");
+        String profileDesc = rs.getString("profileDesc");
         String password = rs.getString("password");
         Date birthdate = rs.getDate("birthdate");
         int nationalityId = rs.getInt("nationality_id");
@@ -39,7 +40,7 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
         Country nationality = new Country(nationalityId, nationalityStr, null);
         Country birthplace = new Country(birthplaceId, null, birthplaceStr);
 
-        return (new User(id, name, surname, phone, email, birthdate, birthplace, nationality));
+        return (new User(id, name, surname, phone, email, profileDesc, birthdate, birthplace, nationality));
     }
     
     private User getUserSimple(ResultSet rs) throws Exception {
@@ -48,12 +49,13 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
         String surname = rs.getString("surname");
         String phone = rs.getString("phone");
         String email = rs.getString("email");
+        String profileDesc = rs.getString("profile_description");
         Date birthdate = rs.getDate("birthdate");
         int nationalityId = rs.getInt("nationality_id");
         int birthplaceId = rs.getInt("birthplace_id");
      
 
-        User user =  new User(id, name, surname, phone, email , birthdate, null, null);
+        User user =  new User(id, name, surname, phone, email , profileDesc, birthdate, null, null);
         user.setPassword(rs.getString("password"));
         return user;
     }
@@ -111,7 +113,7 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
         try (Connection c = connect()) {
             PreparedStatement stmt = c.prepareStatement("SELECT * FROM user WHERE email=? and password=?");
             stmt.setString(1, email);
-            stmt.setString(2, password);
+//            stmt.setString(2, password);
 
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
@@ -125,7 +127,7 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
 
     }
 
-    public User findByUserEmail(String email) {
+    public User findByEmail(String email) {
 
         User result = null;
         try (Connection c = connect()) {
@@ -198,7 +200,7 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
     }
 
 
-    private BCrypt.Hasher crypt = BCrypt.withDefaults();
+    private static BCrypt.Hasher crypt = BCrypt.withDefaults();
     @Override
     public boolean addUser(User u) {
         try (Connection c = connect()) {
@@ -216,6 +218,15 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
             ex.printStackTrace();
             return false;
         }
+    }
+
+    public static void main(String[] args) {
+        User u = new User(0,"test", "test", "test", "test",null,null,null,null);
+        u.setPassword("12345");
+        new UserDaoImpl().addUser(u);
+
+//        System.out.println(crypt.hashToString(4, "12345".toCharArray()));
+
     }
 
 }

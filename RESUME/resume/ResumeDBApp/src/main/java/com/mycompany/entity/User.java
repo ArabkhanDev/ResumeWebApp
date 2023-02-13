@@ -34,7 +34,7 @@ public class User
 
     
     
-    public User(int id, String name, String surname, String phone, String email, Date birthdate, Country birthplace, Country nationality) {
+    public User(int id, String name, String surname, String phone, String email, String profileDesc, Date birthdate, Country birthplace, Country nationality) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -43,6 +43,8 @@ public class User
         this.birthdate = birthdate;
         this.birthplace = birthplace;
         this.nationality = nationality;
+        this.profileDesc = profileDesc;
+
     }
 
     

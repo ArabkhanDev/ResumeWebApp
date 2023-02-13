@@ -22,9 +22,9 @@
           </element>
           <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.32" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
           <element id="library" level="project" name="Maven: at.favre.lib:bcrypt:0.4.1" />
           <element id="library" level="project" name="Maven: at.favre.lib:bytes:0.4.6" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

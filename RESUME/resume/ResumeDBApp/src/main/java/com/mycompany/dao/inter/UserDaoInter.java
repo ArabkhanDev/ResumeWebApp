@@ -24,7 +24,7 @@ public interface UserDaoInter
     public boolean removeUser(int id);
     
     public User findByUserEmailAndPassword(String email, String password);
-    public User findByUserEmail(String email);
+    public User findByEmail(String email);
 
 
 }
