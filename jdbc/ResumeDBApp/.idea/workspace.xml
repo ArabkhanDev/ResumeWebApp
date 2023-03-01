@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="added bcrypto lib for hash password">
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/ResumeDBApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/CountryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/SkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/UserSkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/CountryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/SkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/UserDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/UserSkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/EmploymentHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/UserSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/main/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/ResumeDBApp-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/CountryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/SkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/UserSkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/CountryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/SkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/UserDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/UserSkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/EmploymentHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/UserSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/main/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/orm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/ErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/UserDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/filter/SecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/util/ControllerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/js/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/users.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/mycompany/main/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2KjlC7Vgbtm5KS9AZNXGGlJ1DGF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/javaLessons/Workspace/jpa/ResumeDBApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.UserDaoImpl">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.main.Main" />
+      <module name="ResumeDBApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.dao.impl.UserDaoImpl" />
+      <module name="ResumeDBApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserDaoImpl" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="" />
+      <created>1674495745201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674495745201</updated>
+      <workItem from="1675327343210" duration="24000" />
+      <workItem from="1675327393506" duration="4000" />
+      <workItem from="1675327418614" duration="632000" />
+      <workItem from="1675340840297" duration="48000" />
+      <workItem from="1675347088915" duration="434000" />
+      <workItem from="1675348033586" duration="118000" />
+      <workItem from="1675402359955" duration="90000" />
+      <workItem from="1675403416266" duration="46000" />
+      <workItem from="1675403561691" duration="535000" />
+      <workItem from="1675404577051" duration="39000" />
+      <workItem from="1675593318704" duration="41000" />
+      <workItem from="1675594740431" duration="154000" />
+      <workItem from="1675595588765" duration="17000" />
+      <workItem from="1675877435780" duration="2844000" />
+      <workItem from="1675880804954" duration="33000" />
+      <workItem from="1675880846127" duration="82000" />
+      <workItem from="1675919038834" duration="499000" />
+      <workItem from="1675921774529" duration="8000" />
+      <workItem from="1675922256869" duration="39000" />
+      <workItem from="1675922362744" duration="2000" />
+      <workItem from="1676109278809" duration="86000" />
+      <workItem from="1676111917833" duration="460000" />
+      <workItem from="1676367307010" duration="1140000" />
+      <workItem from="1677046995016" duration="634000" />
+      <workItem from="1677221474745" duration="1073000" />
+      <workItem from="1677311370501" duration="2892000" />
+      <workItem from="1677480707200" duration="386000" />
+    </task>
+    <task id="LOCAL-00001" summary="added bcrypto lib for hash password">
+      <created>1675880896520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675880896520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added bcrypto lib for hash password" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bcrypto lib for hash password" />
+  </component>
+</project>
