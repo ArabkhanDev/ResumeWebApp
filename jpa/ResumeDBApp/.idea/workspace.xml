@@ -4,97 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="added bcrypto lib for hash password">
-      <change afterPath="$PROJECT_DIR$/../../jdbc/ResumeWebApp/src/main/resources/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/ResumeDBApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/nbactions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/CountryDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/SkillDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/impl/UserSkillDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/AbstractDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/CountryDaoInter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/SkillDaoInter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/UserDaoInter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/dao/inter/UserSkillDaoInter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/EmploymentHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/Skill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/entity/UserSkill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/main/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/src/main/java/com/mycompany/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/ResumeDBApp-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/CountryDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/SkillDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/impl/UserSkillDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/AbstractDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/CountryDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/SkillDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/UserDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/dao/inter/UserSkillDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/Country.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/EmploymentHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/Skill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/entity/UserSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/main/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/classes/com/mycompany/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeDBApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/orm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/ErrorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/controller/UserDetailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/filter/SecurityFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/java/com/company/resume/util/ControllerUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/css/users.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/js/fontawesome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/assets/js/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/userdetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RESUME/resume/ResumeWebApp/src/main/webapp/users.jsp" beforeDir="false" />
-    </list>
+    <list default="true" id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="added bcrypto lib for hash password" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/javaLessons/Workspace/jpa/ResumeWebApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/javaLessons/Workspace/ResumeDbAppByUsingSpring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.UserDaoImpl">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.main.Main" />
@@ -207,7 +117,7 @@
       <workItem from="1676111917833" duration="460000" />
       <workItem from="1677481098201" duration="1800000" />
       <workItem from="1677567074014" duration="1257000" />
-      <workItem from="1677649859292" duration="716000" />
+      <workItem from="1677649859292" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="added bcrypto lib for hash password">
       <created>1675880896520</created>
