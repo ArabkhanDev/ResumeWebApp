@@ -6,39 +6,37 @@ package com.company.dao.impl;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
 import com.company.entity.User;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.stereotype.Repository;
-
+import com.company.dao.inter.AbstractDAO;
+import com.company.dao.inter.UserDaoInter;
+import java.util.List;
 import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import java.util.List;
 
 /**
  *
- * @author SMART
+ * @author Umman Hasan
  */
-@Repository
-@Qualifier("userDao1")
-public class UserRepositoryCustomImpl implements UserRepositoryCustom {
-
-
-
-    @PersistenceContext
-    EntityManager em;//DI - Dependency Injection
+public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
 
     @Override
-    @Cacheable(value="users")
     public List<User> getAll(String name, String surname, Integer nationalityId) {
+
+        EntityManager em = em();
 
         String jpql = "select u from User u where 1=1";
 
-
+//        List<User> result = new ArrayList<>();
+//        try ( Connection c = connect()) {
+//            String sql = "SELECT "
+//                    + "u. * , "
+//                    + "c.`name` AS birthplace, "
+//                    + "n.nationality  "
+//                    + "FROM  user u  "
+//                    + "LEFT JOIN country n ON u.nationality_id = n.id "
+//                    + "LEFT JOIN country c ON u.birthplace_id = c.id WHERE 1=1 ";
         if (name != null && !name.trim().isEmpty()) {
             jpql += " AND u.name= :name ";
         }
@@ -68,6 +66,7 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 //    @Override
 //    public User findByUserEmailAndPassword(String email, String password) {
 //
+//        EntityManager em = em();
 //        Query q = em.createQuery("select u from User u where u.email= :e and u.password= :p", User.class);
 //        q.setParameter("e", email);
 //        q.setParameter("p", password);
@@ -84,14 +83,18 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
     @Override
     public User findByUserEmailAndPassword(String email, String password) {
 
+        EntityManager em = em();
+
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<User> q1 = cb.createQuery(User.class);
         Root<User> postRoot = q1.from(User.class);
         CriteriaQuery<User> q2 = q1
                 .where(cb.equal(postRoot.get("email"), email), cb.equal(postRoot.get("password"), password));
+
+
         Query query = em.createQuery(q2);
 
-
+        
 //        query.setParameter(1, email);
 //        query.setParameter(2, password);
 
@@ -108,6 +111,8 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 //    @Override
 //    public User findByEmail(String email) {
 //
+//        EntityManager em = em();
+//
 //        CriteriaBuilder cb = em.getCriteriaBuilder();
 //        CriteriaQuery<User> q1 = cb.createQuery(User.class);
 //        Root<User> postRoot = q1.from(User.class);
@@ -117,7 +122,7 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 //
 //        Query query = em.createQuery(q2);
 //
-//
+//        
 ////        query.setParameter(1, email);
 ////        query.setParameter(2, password);
 //
@@ -129,14 +134,19 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 //        return null;
 //
 //    }
-
-
+    
+    
 //   NamedQuery
 //    @Override
 //    public User findByEmail(String email) {
 //
-//        Query query = em.createNamedQuery("User.findByEmail", User.class);
+//        EntityManager em = em();
 //
+//        
+//        Query query = em.createNamedQuery("User.findByEmail", User.class);
+//        
+//
+//        
 //        query.setParameter("email", email);
 //
 //        List<User> list = query.getResultList();
@@ -147,10 +157,14 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 //        return null;
 //
 //    }
-
+    
 //  Native SQL
     @Override
     public User findByEmail(String email) {
+
+        EntityManager em = em();
+
+        
         Query query = em.createNativeQuery("select * from user where email= ?", User.class);
         query.setParameter(1, email);
 
@@ -158,12 +172,18 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
         if (list.size() == 1) {
             return list.get(0);
         }
+        
+        
+        em.close();
 
         return null;
+
     }
 //    jpql
 //    @Override
 //    public User findByEmail(String email) {
+//
+//        EntityManager em = em();
 //        Query q = em.createQuery("select u from User u where u.email= :e", User.class);
 //        q.setParameter("e", email);
 //
@@ -178,21 +198,36 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
 
     @Override
     public boolean updateUser(User u) {
+        EntityManager em = em();
+
+        em.getTransaction().begin();
         em.merge(u);
+        em.getTransaction().commit();
+
+        em.close();
         return true;
     }
 
     @Override
-//    @CacheEvict(value = "users", allEntries = true)
     public boolean removeUser(int id) {
+        EntityManager em = em();
+
         User u = em.find(User.class, id);
+        em.getTransaction().begin();
         em.remove(u);
+        em.getTransaction().commit();
+
+        em.close();
         return true;
     }
 
     @Override
     public User getById(int userId) {
+        EntityManager em = em();
+
         User u = em.find(User.class, userId);
+
+        em.close();
         return u;
     }
 
@@ -201,7 +236,13 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
     @Override
     public boolean addUser(User u) {
         u.setPassword(crypt.hashToString(4, u.getPassword().toCharArray()));
+        EntityManager em = em();
+
+        em.getTransaction().begin();
         em.persist(u);
+        em.getTransaction().commit();
+
+        em.close();
         return true;
     }
 

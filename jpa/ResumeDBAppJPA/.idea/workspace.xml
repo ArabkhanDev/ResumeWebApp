@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="added bcrypto lib for hash password">
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_eclipse_persistence_jakarta_persistence_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/CountryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/SkillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/CountryDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/SkillDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/EmploymentHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/UserSkill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/Main/ResumeDbAppJpaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/test/java/com/company/Main/ResumeDbAppJpaSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/test/java/com/company/ResumeDbAppJpaSpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +68,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaLessons/Workspace/jpa/ResumeDBAppJPA",
+    "last_opened_file_path": "C:/javaLessons/Workspace/ResumeDbAppByUsingSpring/ResumeDbAppJPASpring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UserDaoImpl">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
       <module name="ResumeDBApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.main.*" />
+          <option name="PATTERN" value="com.company.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="UserDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.dao.impl.UserDaoImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.dao.impl.UserDaoImpl" />
       <module name="ResumeDBApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.dao.impl.*" />
+          <option name="PATTERN" value="com.company.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserDaoImpl" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UserDaoImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +147,13 @@
       <workItem from="1676111917833" duration="460000" />
       <workItem from="1677481098201" duration="1800000" />
       <workItem from="1677567074014" duration="1257000" />
-      <workItem from="1677649859292" duration="2904000" />
+      <workItem from="1677649859292" duration="2722000" />
+      <workItem from="1677654102622" duration="5830000" />
+      <workItem from="1677770954159" duration="644000" />
+      <workItem from="1677826121894" duration="812000" />
+      <workItem from="1677862169956" duration="1199000" />
+      <workItem from="1677943720972" duration="1247000" />
+      <workItem from="1677993739972" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="added bcrypto lib for hash password">
       <created>1675880896520</created>

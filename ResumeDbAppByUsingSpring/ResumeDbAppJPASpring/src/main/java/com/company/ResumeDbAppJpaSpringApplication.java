@@ -1,14 +1,16 @@
 package com.company;
 
 import com.company.dao.impl.UserRepository;
+import com.company.dao.impl.UserRepositoryCustom;
 import com.company.entity.User;
+import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
-
 import java.util.List;
 
 @SpringBootApplication
@@ -47,8 +49,11 @@ public class ResumeDbAppJpaSpringApplication {
 //	}
 
 	@Autowired
-	private UserRepository userRepository;
+//	private UserRepository userRepository;
+	private UserServiceInter userService;
 
+	@Autowired
+	private UserRepository repo;
 
 	@Bean
 	public CommandLineRunner run(){
@@ -57,9 +62,14 @@ public class ResumeDbAppJpaSpringApplication {
 
 			@Override
 			public void run(String... args) throws Exception {
-				List<User> u = userRepository.getAll(null,null,null);
-				System.out.println(u);
+//				List<User> u = userRepository.getAll(null,null,null);
+//				System.out.println(u);
 
+				for (int i = 0;i < 10;i++){
+					userService.getAll(null,null,null);
+				}
+
+				userService.getById(6);
 			}
 		};
 
