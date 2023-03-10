@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ResumeWebApp:Web exploded">
+    <output-path>$PROJECT_DIR$/../../../apache-tomcat-9.0.70/apache-tomcat-9.0.70/bin/artifacts/ResumeWebApp_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ResumeWebApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ResumeWebApp" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
