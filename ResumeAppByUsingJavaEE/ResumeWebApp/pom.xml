@@ -6,7 +6,7 @@
 
   <groupId>com.company</groupId>
   <artifactId>resumewebapp</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>resumewebapp Maven Webapp</name>

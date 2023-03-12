@@ -1,13 +1,28 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="resumewebapp:war exploded">
     <output-path>$PROJECT_DIR$/target/resumewebapp</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>resumewebapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="resumewebapp" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.company:ResumeDbAppJPA:0.1" />
+          <element id="archive" name="resumewebapp-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="resumewebapp" />
+          </element>
+          <element id="library" level="project" name="Maven: com.company:resumewebapp:0.1" />
+          <element id="library" level="project" name="Maven: javax:javaee-api:8.0.1" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.mycompany.Main:ResumeDbApp:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
           <element id="library" level="project" name="Maven: at.favre.lib:bcrypt:0.4.1" />
           <element id="library" level="project" name="Maven: at.favre.lib:bytes:0.4.6" />
         </element>
