@@ -7,6 +7,6 @@
 --%>
 <%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
 <%
-    User user= (User) session.getAttribute("loggedInUser");
+//    User user= (User) session.getAttribute("loggedInUser");
 %>
-<%="Wellcome, "+user.getName()+"!!!"%>
+<%="Wellcome, "+"!!!"%>

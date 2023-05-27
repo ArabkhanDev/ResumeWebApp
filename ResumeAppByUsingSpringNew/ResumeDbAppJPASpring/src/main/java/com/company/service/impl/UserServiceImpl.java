@@ -9,6 +9,7 @@ import com.company.entity.User;
 import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,12 +20,18 @@ import java.util.List;
  * @author SMART
  */
 @Service
+
 @Transactional
 public class UserServiceImpl implements UserServiceInter {
 
     @Autowired
     @Qualifier("userDao1")
     private UserRepositoryCustom userDao;
+
+    @Override
+    public List<User> getAll() {
+        return null;
+    }
 
     @Override
     public List<User> getAll(String name, String surname, Integer nationalityId) {
