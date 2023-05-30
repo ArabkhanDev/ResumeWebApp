@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1572e58b-9397-45d5-8ac5-cfaf4b755df4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/usersJ.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingJavaEE/ResumeWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingJavaEE/ResumeWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/resumewebapp/ResumewebappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/ResumewebappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/resumewebapp/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/css/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/assets/css/users.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/js/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/assets/js/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/userdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/userdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/test/java/com/company/resumewebapp/ResumewebappApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PhyrhnyU4vXjFomFbILqAomPNR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1572e58b-9397-45d5-8ac5-cfaf4b755df4" name="Changes" comment="" />
+      <created>1683923810467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683923810467</updated>
+      <workItem from="1683923811716" duration="382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

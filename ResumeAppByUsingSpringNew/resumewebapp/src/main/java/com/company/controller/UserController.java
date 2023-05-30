@@ -3,6 +3,7 @@ package com.company.controller;
 
 import com.company.entity.User;
 import com.company.form.UserForm;
+import com.company.service.DummyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -67,6 +68,27 @@ public class UserController {
 
         mv.addObject("users",list);
         return mv;
+    }
+
+
+    @RequestMapping(method = {RequestMethod.GET}, value = "/login")//users?name=Sarkhan
+    public String loginPost() {
+        return "login";
+    }
+
+    @RequestMapping(method = {RequestMethod.GET}, value = "/logout")//users?name=Sarkhan
+    public String logoutPost() {
+        return "logout";
+    }
+
+    @Autowired
+    DummyService dummyService;
+
+    @RequestMapping(method = {RequestMethod.GET}, value = "/foo")//users?name=Sarkhan
+    public String foo() {
+        System.out.println("foo in Controller");
+        dummyService.foo();
+        return "users";
     }
 
     @ModelAttribute("user")

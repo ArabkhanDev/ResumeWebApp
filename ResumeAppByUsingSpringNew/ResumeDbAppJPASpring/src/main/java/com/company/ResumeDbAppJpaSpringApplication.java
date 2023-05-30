@@ -24,25 +24,26 @@ public class ResumeDbAppJpaSpringApplication {
 
 	//DI - Dependency Injection
 	//IoC - Inversion of Control, RMI
-	@Autowired
-	@Qualifier("userDao1")
-	private UserRepositoryCustomImpl userDao;
 
-
-	@Bean
-	public CommandLineRunner run(){
-		CommandLineRunner clr = new CommandLineRunner(){
-			@Override
-			public void run(String... args) throws Exception {
-				List<User> list = userDao.getAll(null,null,null);
-				User u = list.get(0);
-				u.setName(u.getName().toLowerCase());
-				userDao.updateUser(u);// when use this method uncomment @Transactional in UserRepositoryCustomImpl
-			}
-		};
-
-		return clr;
-	}
+//	@Autowired
+//	@Qualifier("userDao1")
+//	private UserRepositoryCustomImpl userDao;
+//
+//
+//	@Bean
+//	public CommandLineRunner run(){
+//		CommandLineRunner clr = new CommandLineRunner(){
+//			@Override
+//			public void run(String... args) throws Exception {
+//				List<User> list = userDao.getAll(null,null,null);
+//				User u = list.get(0);
+//				u.setName(u.getName().toLowerCase());
+//				userDao.updateUser(u);// when use this method uncomment @Transactional in UserRepositoryCustomImpl
+//			}
+//		};
+//
+//		return clr;
+//	}
 
 
 	//	@Autowired

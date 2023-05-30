@@ -9,114 +9,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e06e225-5977-475b-9010-a7d09dfe7760" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_company_resumewebapp_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mycompany_Main_ResumeDbApp_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/css/users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/js/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/userdetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/users.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_14_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_beans_5_3_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_expression_5_3_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_test_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_company_ResumeDbAppJPA_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resumewebapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resumewebapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/resume/controller/UserDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/resume/controller/UserDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_eclipse_angus_angus_activation_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_glassfish_jaxb_txw2_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_1_7_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_mockito_mockito_core_4_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_aop_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_tx_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_beans_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_core_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_context_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_context_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_core_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_aop_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_expression_6_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_orm_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_orm_6_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_test_6_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_springframework_spring_tx_6_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserRepositoryCustomImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="2e06e225-5977-475b-9010-a7d09dfe7760" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -603,7 +496,7 @@
       <workItem from="1552929128394" duration="1965000" />
       <workItem from="1553027324014" duration="37000" />
       <workItem from="1554491026056" duration="2146000" />
-      <workItem from="1678639393268" duration="3249000" />
+      <workItem from="1678639393268" duration="3843000" />
     </task>
     <servers />
   </component>

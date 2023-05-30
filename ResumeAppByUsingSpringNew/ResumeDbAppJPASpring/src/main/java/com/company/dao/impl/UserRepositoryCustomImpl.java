@@ -24,7 +24,7 @@ import java.util.List;
  *
  * @author SMART
  */
-@Transactional// for use updateUser(u)
+//@Transactional// for use updateUser(u)
 @Repository
 @Qualifier("userDao1")
 public class UserRepositoryCustomImpl implements UserRepositoryCustom {

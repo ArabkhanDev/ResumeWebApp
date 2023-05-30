@@ -20,7 +20,6 @@ import java.util.List;
  * @author SMART
  */
 @Service
-
 @Transactional
 public class UserServiceImpl implements UserServiceInter {
 

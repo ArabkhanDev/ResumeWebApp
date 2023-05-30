@@ -5,35 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8acf2cbb-c7be-4195-a2fe-5b90c78dc36d" name="Changes" comment="added bcrypto lib for hash password">
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/.idea/libraries/Maven__org_eclipse_persistence_jakarta_persistence_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/CountryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/SkillDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserDaoImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/CountryDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/SkillDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/EmploymentHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/entity/UserSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/Main/ResumeDbAppJpaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/test/java/com/company/Main/ResumeDbAppJpaSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ResumeDbAppByUsingSpring/ResumeDbAppJPASpring/src/test/java/com/company/ResumeDbAppJpaSpringApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ResumeDbAppJPASpring/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/usersJ.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/resumewebapp/ResumewebappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/ResumewebappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/resumewebapp/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/java/com/company/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/css/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/assets/css/users.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/assets/js/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/assets/js/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/userdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/userdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/main/webapp/WEB-INF/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ResumeAppByUsingSpringNew/resumewebapp/src/test/java/com/company/resumewebapp/ResumewebappApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaLessons/Workspace/ResumeDbAppByUsingSpring/ResumeDbAppJPASpring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/javaLessons/Workspace/ResumeDbAppByUsingSpring/ResumeDbAppJPASpring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.main.Main" />
@@ -154,6 +149,7 @@
       <workItem from="1677862169956" duration="1199000" />
       <workItem from="1677943720972" duration="1247000" />
       <workItem from="1677993739972" duration="3194000" />
+      <workItem from="1684996461915" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="added bcrypto lib for hash password">
       <created>1675880896520</created>
