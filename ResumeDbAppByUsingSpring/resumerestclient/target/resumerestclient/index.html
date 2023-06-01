@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+
+        var arr = [{"id":6,"name":"sarkhan","surname":"rasullu"},{"id":7,"name":"test","surname":"test"}]
+
+        function printUsers(){
+            var container = document.getElementById("container")
+            for(var i=0;arr.length;i++){
+                var obj = arr[i];
+                var str = obj.id + " " + obj.name + " " + obj.surname + "<br/>"
+                container.innerHTML += str;
+            }
+
+        }
+
+        printUsers()
+    </script>
+</head>
+<body onload="printUsers()">
+    <div id="container">
+
+    </div>
+</body>
+</html>
