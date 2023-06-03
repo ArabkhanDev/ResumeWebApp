@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResumerestapiiApplication {
+public class ResumerestapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ResumerestapiiApplication.class, args);
+		SpringApplication.run(ResumerestapiApplication.class, args);
 	}
 
 }

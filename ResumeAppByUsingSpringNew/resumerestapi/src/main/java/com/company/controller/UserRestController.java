@@ -1,34 +1,37 @@
 package com.company.controller;
 
+import com.company.dao.impl.UserRepository;
 import com.company.dao.impl.UserRepositoryCustom;
 import com.company.dto.ResponseDTO;
 import com.company.dto.UserDTO;
 import com.company.entity.User;
+import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Controller
+@RestController
 public class UserRestController {
 
     @Autowired
-    @Qualifier("userDao1")
-    private UserRepositoryCustom userRepo;
+//    @Qualifier("userDao1")
+    private UserServiceInter userService;
 
     @GetMapping("/users")
+    @CrossOrigin(origins = "*")
+    @Transactional
     public ResponseEntity<ResponseDTO> getUsers(
             @RequestParam(name = "name",required = false) String name,
             @RequestParam(name = "surname",required = false) String surname,
             @RequestParam(name = "age",required = false) Integer age
     ){
-        List<User> users =userRepo.getAll(name,surname,age);
+        List<User> users =userService.getAll(name,surname,age);
 
         List<UserDTO> userDTOS = new ArrayList<>();
 
@@ -41,15 +44,45 @@ public class UserRestController {
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
     }
 
-
+    @CrossOrigin(origins = "*")
     @GetMapping("/users/{id}")
-    public ResponseEntity<ResponseDTO> getUsers(@PathVariable("id") int id
+    public ResponseEntity<ResponseDTO> getUser(@PathVariable("id") int id
     ){
-        User user =userRepo.getById(id);
+        User user =userService.getById(id);
 
 
         return ResponseEntity.ok(ResponseDTO.of(new UserDTO(user)));
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
+    }
+
+    @CrossOrigin(origins = "*")
+    @DeleteMapping("/users/{id}")
+    public ResponseEntity<ResponseDTO> deleteUser(@PathVariable("id") int id){
+        User user = userService.getById(id);
+        userService.removeUser(id);
+
+
+        return ResponseEntity.ok(ResponseDTO.of(new UserDTO(user), "Successfully deleted"));
+//        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
+    }
+
+    @CrossOrigin(origins = "*")
+    @PostMapping("/users")
+    public ResponseEntity<ResponseDTO> addUser(@RequestBody UserDTO userDto){
+        User user = new User();
+        user.setName(userDto.getName());
+        user.setSurname(userDto.getSurname());
+        user.setPassword(userDto.getPassword());
+        userService.addUser(user);
+
+
+        UserDTO userDTO = new UserDTO();
+        userDTO.setId(user.getId());
+        userDTO.setName(user.getName());
+        userDTO.setPassword(user.getPassword());
+
+
+        return ResponseEntity.ok(ResponseDTO.of(userDto, "Successfully added"));
     }
 
 }

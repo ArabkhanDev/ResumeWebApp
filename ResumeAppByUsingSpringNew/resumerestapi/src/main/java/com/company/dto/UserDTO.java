@@ -11,7 +11,9 @@ public class UserDTO {
     private int id;
     private String name;
     private String surname;
+    private String password;
     private List<UserSkillDTO> skills;
+
 
 
     public UserDTO() {
@@ -68,5 +70,13 @@ public class UserDTO {
 
     public void setSkills(List<UserSkillDTO> skills) {
         this.skills = skills;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
