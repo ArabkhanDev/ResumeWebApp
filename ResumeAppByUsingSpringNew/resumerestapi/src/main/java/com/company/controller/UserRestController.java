@@ -43,7 +43,7 @@ public class UserRestController {
         return ResponseEntity.ok(ResponseDTO.of(userDTOS));
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
     }
-
+    @Transactional
     @CrossOrigin(origins = "*")
     @GetMapping("/users/{id}")
     public ResponseEntity<ResponseDTO> getUser(@PathVariable("id") int id
@@ -55,6 +55,7 @@ public class UserRestController {
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
     }
 
+    @Transactional
     @CrossOrigin(origins = "*")
     @DeleteMapping("/users/{id}")
     public ResponseEntity<ResponseDTO> deleteUser(@PathVariable("id") int id){
@@ -65,8 +66,8 @@ public class UserRestController {
         return ResponseEntity.ok(ResponseDTO.of(new UserDTO(user), "Successfully deleted"));
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
     }
-
-    @CrossOrigin(origins = "*")
+    @Transactional
+    @CrossOrigin(origins = "*", methods = RequestMethod.POST)
     @PostMapping("/users")
     public ResponseEntity<ResponseDTO> addUser(@RequestBody UserDTO userDto){
         User user = new User();
@@ -79,10 +80,9 @@ public class UserRestController {
         UserDTO userDTO = new UserDTO();
         userDTO.setId(user.getId());
         userDTO.setName(user.getName());
-        userDTO.setPassword(user.getPassword());
+        userDTO.setSurname(user.getSurname());
+        return ResponseEntity.ok(ResponseDTO.of(userDTO,"Successfully added"));
 
-
-        return ResponseEntity.ok(ResponseDTO.of(userDto, "Successfully added"));
     }
 
 }

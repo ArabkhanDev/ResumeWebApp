@@ -55,7 +55,7 @@
             var srnm = document.getElementById("surname").value;
             var pass = document.getElementById("password").value;
 
-            var user = {name:nm, surname:srnm, password:pass};
+            var user = {name: nm, surname: srnm, password: pass};
             xhttp.open("POST", "http://localhost:8085/resumerest/users", true);
             xhttp.setRequestHeader("Content-Type", "application/json");
             xhttp.send(JSON.stringify(user));
