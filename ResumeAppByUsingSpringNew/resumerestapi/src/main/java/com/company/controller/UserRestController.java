@@ -43,6 +43,30 @@ public class UserRestController {
         return ResponseEntity.ok(ResponseDTO.of(userDTOS));
 //        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
     }
+
+
+    @GetMapping("/foo")
+    @CrossOrigin(origins = "*")
+    @Transactional
+    public ResponseEntity<ResponseDTO> foo(
+            @RequestParam(name = "name",required = false) String name,
+            @RequestParam(name = "surname",required = false) String surname,
+            @RequestParam(name = "age",required = false) Integer age
+    ){
+        List<User> users =userService.getAll(name,surname,age);
+
+        List<UserDTO> userDTOS = new ArrayList<>();
+
+        for (int i=0;i<users.size();i++){
+            User u = users.get(i);
+            userDTOS.add(new UserDTO(u));
+        }
+
+        return ResponseEntity.ok(ResponseDTO.of(userDTOS));
+//        return ResponseEntity.status(HttpStatus.OK).body(userDTOS);
+    }
+
+
     @Transactional
     @CrossOrigin(origins = "*")
     @GetMapping("/users/{id}")
