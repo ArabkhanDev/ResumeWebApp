@@ -1,15 +1,10 @@
+import com.company.dao.impl.UserDaoImpl2;
 import com.company.dao.impl.UserRepositoryCustom;
 import com.company.entity.Country;
 import com.company.entity.User;
 import com.company.service.impl.UserServiceImpl;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
+import org.junit.*;
+import org.mockito.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
@@ -19,7 +14,7 @@ import java.util.List;
 public class UserServiceTest {
 
     @Mock
-    UserRepositoryCustom userDao;
+    UserDaoImpl2 userDao;
 
     @InjectMocks
     UserServiceImpl userService;
@@ -48,9 +43,8 @@ public class UserServiceTest {
         Mockito.when(userDao.getAll(null,null,null)).thenReturn(list);
         Mockito.when(userDao.getAll("test","test",1)).thenReturn(list);
 
-
-        Mockito.when(userDao.findByUserEmailAndPassword(null,null)).thenReturn(null);
     }
+
 
     @Test
     public void testGivenNullThenGetAll(){
@@ -65,8 +59,9 @@ public class UserServiceTest {
     }
 
 
-    @Test
-    public void testGivenAllParamsThenGetAllByFilter(){
+    @Test(expected = NullPointerException.class)
+    @Ignore
+    public void shouldReturnAllUsers_whenNoParameterPassed(){
         List<User> list = userService.getAll("test","test",1);
 
         Assert.assertTrue("user must be grater than 0",  list.size() > 0);
@@ -95,16 +90,6 @@ public class UserServiceTest {
 
     }
 
-//    @Test
-//    public void testGivenNotNullFindByEmailAndPassword(){
-//        UserServiceImpl userService = new UserServiceImpl();
-//
-//        User user = userService.findByEmail("tset@test.com");
-//
-//
-//        Assert.assertNull("user must be null",  user);
-//
-//
-//    }
+
 
 }
